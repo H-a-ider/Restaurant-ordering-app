@@ -162,3 +162,172 @@ header h1{
 .hidden{
     display: none;
 }
+
+@media(max-width:720px){
+    
+header{
+    display: inline-block;
+    background-image: url("images/main.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 40%;
+    color: #FFFFFF;
+    padding-left: 40px;
+    text-shadow: black 2px 2px;
+}
+header h1{
+    padding-top: 30%;
+    font-size: 70px;
+}
+
+header p {
+    font-size: 25px;
+}
+
+.orderMenu{
+    display: flex;
+    border-bottom: #D2D2D2 solid 1px;    
+}
+.item-emoji{
+    font-size: 50px;
+    margin-top: 160px;
+    padding-left: 50px;
+}
+
+.order-specifications{
+    padding-top: 135px;
+    padding-left: 50px;
+}
+
+.item-ingredients{
+    color:#8B8B8B;
+    
+}
+
+.add-btn{
+    border-radius: 50% ;
+    border-color: #DEDEDE;
+    color: #3C3C3C;
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+.front-btn {
+    padding-top: 50px;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.myorder{
+    text-align: center;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-btn{
+    border: none;
+    background-color: white;
+    padding-top: 10px;
+    margin-left:10px;
+    margin-right: auto;
+    color: #BBBBBB;
+}
+.cart h1{
+    margin: 5px 10px;
+}
+
+.total-price {
+    border-top: 2px black solid;
+    padding-left:10px;
+}
+
+.total-price h1{
+    float: left;
+}
+.total-price h2{
+    float: right;
+    font-size: xx-large;
+    padding-right: 10px;
+}
+
+.complete-order{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #16DB99;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    margin: 0;
+}
+
+
+.form-details {
+    font-family: Verdana;
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: white;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.label {
+    display: block;
+    color: black;
+    font-size:xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-details input{
+    width: 340px;
+    padding: 13px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.paybtn{
+    width: 340px;
+    background-color:#16DB99;
+    color:white;
+    padding: 20px;
+    border: none;
+    margin-top: 30px;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.thanks-msg{
+    display: none;
+    color:#065F46;
+    font-size: 70px;
+    font-weight: bold;
+    height: 17px;
+    left: 109px;
+    top: 840px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.hidden{
+    display: none;
+}
+
+}
