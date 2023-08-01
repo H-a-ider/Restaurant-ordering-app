@@ -190,27 +190,38 @@ header p {
     border-bottom: #D2D2D2 solid 1px;    
 }
 .item-emoji{
-    font-size: 50px;
+    font-size: 100px;
     margin-top: 160px;
     padding-left: 50px;
 }
 
+.item-name{
+    font-size: 70px;
+
+}
+
 .order-specifications{
-    padding-top: 135px;
-    padding-left: 50px;
+    padding-top: 120px;
+    padding-left: 30px;
+    
 }
 
 .item-ingredients{
     color:#8B8B8B;
+    font-size: 35px;
     
+}
+
+.item-price{
+    font-size: 50px;
 }
 
 .add-btn{
     border-radius: 50% ;
     border-color: #DEDEDE;
     color: #3C3C3C;
-    font-size: 50px;
-    margin-top: 130px;
+    font-size: 80px;
+    margin-top: 140px;
 }
 
 .front-btn {
@@ -221,6 +232,7 @@ header p {
 
 .myorder{
     text-align: center;
+    font-size: 120px;
 }
 
 .cart{
@@ -235,14 +247,20 @@ header p {
     margin-left:10px;
     margin-right: auto;
     color: #BBBBBB;
+    font-size: 20px;
+
 }
 .cart h1{
     margin: 5px 10px;
+    font-size: 70px;
+
 }
 
 .total-price {
     border-top: 2px black solid;
     padding-left:10px;
+    font-size: 30px;
+
 }
 
 .total-price h1{
@@ -250,7 +268,7 @@ header p {
 }
 .total-price h2{
     float: right;
-    font-size: xx-large;
+    font-size: 60px;
     padding-right: 10px;
 }
 
@@ -261,7 +279,7 @@ header p {
     color: #FFFFFF;
     background-color: #16DB99;
     font-weight: bold;
-    font-size: large;
+    font-size: 50px;
     border: none;
     margin: 0;
 }
@@ -276,8 +294,8 @@ header p {
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 420px;
-    width: 350px;
+    height: 600px;
+    width: 500px;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 2px #666;
     background-color: white;
@@ -288,27 +306,27 @@ header p {
 .label {
     display: block;
     color: black;
-    font-size:xx-large;
+    font-size:60px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .form-details input{
-    width: 340px;
-    padding: 13px;
+    width: 420px;
+    padding: 20px;
     margin-top: 20px;
     font-size: x-large;
 }
 
 .paybtn{
-    width: 340px;
+    width: 420px;
     background-color:#16DB99;
     color:white;
     padding: 20px;
     border: none;
     margin-top: 30px;
-    font-size:x-large;
+    font-size:40px;
     font-weight: bold;
 }
 
