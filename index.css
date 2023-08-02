@@ -163,7 +163,7 @@ header h1{
     display: none;
 }
 
-@media(max-width:767px){
+@media(max-width:480px){
     
 header{
     display: inline-block;
